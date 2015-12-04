@@ -11,8 +11,6 @@ http://nuget.org/List/Packages/Kendo.Message
 
     PM> Install-Package Kendo.Message
 
-![](https://raw.githubusercontent.com/jrummell/jquery-message/master/demo/screen.png)
-
 Or install with Bower:
 
 [![Bower version](https://badge.fury.io/bo/kendo.message.svg)](https://badge.fury.io/bo/kendo.message)
