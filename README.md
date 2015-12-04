@@ -2,7 +2,7 @@
 
 Simple jQuery plugins that display info and error messages.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/i43ayk6d2x36dhpv?svg=true)](https://ci.appveyor.com/project/jrummell/kendo-message)
+[![Build status](https://ci.appveyor.com/api/projects/status/kls9eyx15a3qtvfs?svg=true)](https://ci.appveyor.com/project/jrummell/kendo-message)
 
 You can install with NuGet:
 
