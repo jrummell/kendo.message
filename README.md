@@ -1,31 +1,22 @@
-# jQuery Message
+# jQuery Kendo Message
 
 Simple jQuery plugins that display info and error messages.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0tq5x9vo4iffajsr?svg=true)](https://ci.appveyor.com/project/jrummell/jquery-message)
+[![Build status](https://ci.appveyor.com/api/projects/status/i43ayk6d2x36dhpv?svg=true)](https://ci.appveyor.com/project/jrummell/kendo-message)
 
 You can install with NuGet:
 
-## jQuery UI [![jQuery UI on NuGet](https://img.shields.io/nuget/v/jQuery.UI.Message.svg)](http://nuget.org/List/Packages/jQuery.UI.Message)
-http://nuget.org/List/Packages/jQuery.UI.Message
-
-    PM> Install-Package jQuery.UI.Message
-
-## jQuery Mobile [![jQuery Mobile on NuGet](https://img.shields.io/nuget/v/jQuery.Mobile.Message.svg)](http://nuget.org/List/Packages/jQuery.Mobile.Message)
-http://nuget.org/List/Packages/jQuery.Mobile.Message
-
-    PM> Install-Package jQuery.Mobile.Message
-
-## Kendo UI [![Kendo UI on NuGet](https://img.shields.io/nuget/v/Kendo.Message.svg)](http://nuget.org/List/Packages/Kendo.Message)
+[![Kendo Message on NuGet](https://img.shields.io/nuget/v/Kendo.Message.svg)](http://nuget.org/List/Packages/Kendo.Message)
 http://nuget.org/List/Packages/Kendo.Message
 
     PM> Install-Package Kendo.Message
 
-## bootstrap [![Bootstrap UI on NuGet](https://img.shields.io/nuget/v/Bootstrap.Message.svg)](http://nuget.org/List/Packages/Bootstrap.Message)
-http://nuget.org/List/Packages/Bootstrap.Message
-
-    PM> Install-Package Bootstrap.Message
-
 ![](https://raw.githubusercontent.com/jrummell/jquery-message/master/demo/screen.png)
+
+Or install with Bower:
+
+[![Bower version](https://badge.fury.io/bo/kendo.message.svg)](https://badge.fury.io/bo/kendo.message)
+
+    > bower install kendo.message
 
 [Usage](https://github.com/jrummell/jquery-message/wiki)

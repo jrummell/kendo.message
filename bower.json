@@ -1,0 +1,31 @@
+{
+    "name": "kendo.message",
+    "description": "A simple jQuery plugin that uses the Kendo UI info and error css classes to display info and error messages.",
+    "authors": [
+        {
+            "name": "John Rummell",
+            "homepage": "http://jrummell.com"
+        }
+    ],
+    "main": "kendo.message.js",
+    "moduleType": [],
+    "license": "http://www.gnu.org/licenses/gpl.html",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jrummell/kendo.message.git"
+    },
+    "keywords": [
+        "kendo",
+        "message",
+        "jquery",
+        "plugin"
+    ],
+    "dependencies": {
+        "kendo-ui-core": "^2015.3.1201"
+    },
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
