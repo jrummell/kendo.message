@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../src/css/jquery.mobile.message.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="../src/js/jquery.mobile.message.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>
+                jQuery Mobile Message Plugin</h1>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set">
+                <div data-role="collapsible" data-collapsed="false">
+                    <h3>
+                        General Usage</h3>
+                    <div id="message1">
+                        Here's an info message.</div>
+                    <div id="message2">
+                        Here's an error message.</div>
+                    <div id="message3">
+                    </div>
+                    <div id="message4">
+                        Here's an info message without dismiss.</div>
+                </div>
+                <div data-role="collapsible">
+                    <h3>
+                        Change Options</h3>
+                    <div id="message5">
+                        Click the following button to change this to an error.</div>
+                    <button id="message5-button">
+                        Change to Error</button>
+                </div>
+                <div data-role="collapsible">
+                    <h3>
+                        Show/Hide</h3>
+                    <div id="message6">
+                        Click the following buttons to show or hide.</div>
+                    <button id="message6-hide">
+                        Hide</button>
+                    <button id="message6-show">
+                        Show</button>
+                </div>
+                <div data-role="collapsible">
+                    <h3>
+                        Two messages initialized at the same time</h3>
+                    <div class="info-message">
+                        Info message with class 'info-message' 1.</div>
+                    <div class="info-message">
+                        Info message with class 'info-message' 2.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-role="footer">
+        <h4>
+            <a href="https://github.com/jrummell/jquery-message">Project Home</a></h4>
+    </div>
+</body>
+</html>
