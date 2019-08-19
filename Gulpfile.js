@@ -1,34 +1,23 @@
-﻿var gulp = require("gulp");
-var bower = require("gulp-bower");
-var uglify = require("gulp-uglify");
-var rename = require("gulp-rename");
+﻿const { src, dest, parallel } = require("gulp");
+const uglify = require("gulp-uglify");
+const rename = require("gulp-rename");
 
 var config = {
-    out: "dist/js",
-    src: "src/js/*.*",
-    css: "src/css/*.*"
+    src: { js: "src/js/*.js", css: "src/css/*.css" },
+    dist: { js: "dist/js", css: "dist/css" }
 };
 
-gulp.task("restore", function () {
-    return bower();
-});
-
-gulp.task("copy", function () {
-    return gulp.src(config.src)
-        .pipe(gulp.dest(config.out));
-});
-
-gulp.task("minify", function () {
-    return gulp.src(config.src)
-        .pipe(uglify({preserveComments: "license"}))
+function minify() {
+    return src(config.src.js)
+        .pipe(uglify({ output: { comments: "some" } }))
         .pipe(rename("kendo.message.min.js"))
-        .pipe(gulp.dest(config.out));
-});
+        .pipe(dest(config.dist.js));
+}
 
-gulp.task("css", function () {
-    return gulp.src(config.css)
-        .pipe(gulp.dest("dist/css"));
-});
+function css() {
+    return src(config.src.css).pipe(dest(config.dist.css));
+}
 
-gulp.task("default", ["copy", "minify", "css"], function () {
-});
+exports.minify = minify;
+exports.css = css;
+exports.default = parallel(minify, css);
