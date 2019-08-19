@@ -4,18 +4,9 @@ A simple jQuery plugin that displays info and error messages.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/kls9eyx15a3qtvfs?svg=true)](https://ci.appveyor.com/project/jrummell/kendo-message)
 
-You can install with NuGet:
+You can install with npm:
 
-[![Kendo Message on NuGet](https://img.shields.io/nuget/v/Kendo.Message.svg)](http://nuget.org/List/Packages/Kendo.Message)
-http://nuget.org/List/Packages/Kendo.Message
-
-    PM> Install-Package Kendo.Message
-
-Or install with Bower:
-
-[![Bower version](https://badge.fury.io/bo/kendo.message.svg)](https://badge.fury.io/bo/kendo.message)
-
-    > bower install kendo.message
+    > npm i kendo.message
 
 ## Usage
 
@@ -40,29 +31,31 @@ All options are optional.
 ### Examples
 
     <script type="text/javascript">
-        $(document).ready(function()
-        {
-            $("#message1").message();
-            $("#message2").message({type:"error"});
-            $("#message3").message({type:"info", message:"Here's an info message with dynamic content."});
-            $("#message4").message({dismiss: false});
-            $("#message5").message();
-            $("#message6").message({dismiss: false});
-            
-            $("#message5-button").click(function()
-            {
-                $("#message5").message('options', {type:"error", message:"Error"});
+        $(document).ready(function () {
+            $("#message1").kendoMessage();
+            $("#message2").kendoMessage({ type: "error" });
+            $("#message3").kendoMessage({ type: "info", message: "Here's an info message with dynamic content." });
+            $("#message4").kendoMessage({ dismiss: false });
+            $("#message5").kendoMessage();
+            $("#message6").kendoMessage({ dismiss: false });
+
+            $("#message5-button").click(function () {
+                $("#message5").kendoMessage("options", { type: "error", message: "This is now an error message." });
             });
-            
-            $("#message6-hide").click(function()
-            {
-                $("#message6").message("hide");
+
+            $("#message6-hide").click(function () {
+                $("#message6").kendoMessage("hide");
             });
-            
-            $("#message6-show").click(function()
-            {
-                $("#message6").message("show");
+
+            $("#message6-show").click(function () {
+                $("#message6").kendoMessage("show");
             });
+
+            $(".info-message").kendoMessage();
+
+            $("button").addClass("k-button");
+
+            $("fieldset").addClass("k-widget");
         });
     </script>
     <div id="message1">Here's an info message.</div>
