@@ -72,4 +72,4 @@ All options are optional.
         <button id="message6-show">Show</button>
     </div>
 
-[Demo](http://rawgit.com/jrummell/kendo.message/master/demo/index.html)
+[Demo](https://unpkg.com/kendo.message/demo/index.html)
