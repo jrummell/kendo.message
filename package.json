@@ -1,6 +1,6 @@
 {
   "name": "kendo.message",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "description": "A simple jQuery plugin that uses the Kendo UI info and error css classes to display info and error messages.",
   "main": "src/js/kendo.message.js",
   "scripts": {
