@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es6": false,
+        "jquery": true
+    },
+    "extends": ["airbnb-base"],
+    "globals": {
+        "kendo_module": "readonly"
+    },
+    "rules": {
+        "quotes": ["error", "double"],
+        "linebreak-style": "off",
+        "indent": ["error", 4],
+        "no-tabs": "error",
+        "prefer-template": "off",
+        "no-var": "off",
+        "comma-dangle": "off",
+        "no-param-reassign": "off",
+        "vars-on-top": "off",
+        "prefer-arrow-callback": "off",
+        "func-names": "off",
+        "object-shorthand": "off"
+    }
+}
