@@ -2,7 +2,7 @@
 
 A simple jQuery plugin that displays info and error messages.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/kls9eyx15a3qtvfs?svg=true)](https://ci.appveyor.com/project/jrummell/kendo-message)
+[![Build status](https://rummellwebsolutions.visualstudio.com/kendo.message/_apis/build/status/kendo.message-CI)](https://rummellwebsolutions.visualstudio.com/kendo.message/_build/latest?definitionId=1)
 
 You can install with npm:
 
