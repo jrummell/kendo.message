@@ -30,6 +30,7 @@ All options are optional.
 
 ### Examples
 
+```html
     <script type="text/javascript">
         $(document).ready(function () {
             $("#message1").kendoMessage();
@@ -71,5 +72,6 @@ All options are optional.
         <button id="message6-hide">Hide</button>
         <button id="message6-show">Show</button>
     </div>
+```
 
 [Demo](https://unpkg.com/kendo.message/demo/index.html)
